@@ -1,0 +1,28 @@
+﻿.menu-image {
+    float: right;
+    cursor: pointer;
+}
+
+.menu-list-items {
+    float: right;
+}
+
+.menu-link-names {
+    color: white;
+    font-size: 19px;
+    transition: font-size 0.2s;
+}
+
+    .menu-link-names:hover {
+        color: #ffc107;
+        display: block;
+        font-size: 20px;
+    }
+
+.navbar-brand {
+    color: white;
+}
+
+.nevigation {
+    background-color: #211412;
+}
