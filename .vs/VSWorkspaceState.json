@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pages",
-    "\\Pages\\Shared"
+    "\\Images",
+    "\\Scripts",
+    "\\Styles"
   ],
-  "SelectedNode": "\\Pages\\Shared\\error.html",
+  "SelectedNode": "\\Scripts\\Scripts.js",
   "PreviewInSolutionExplorer": false
 }
