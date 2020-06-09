@@ -5,12 +5,14 @@
 
 .menu-list-items {
     float: right;
+
 }
 
 .menu-link-names {
     color: white;
     font-size: 19px;
     transition: font-size 0.2s;
+    cursor:pointer;
 }
 
     .menu-link-names:hover {
@@ -23,6 +25,27 @@
     color: white;
 }
 
-.nevigation {
+.navigation {
     background-color: #211412;
 }
+.footers {
+    background-color: #00000a;
+    color: white;
+    padding-top:5vw
+}
+.site-links a{
+    font-size:18px;
+    color:white;
+    cursor:pointer;
+    transition:font-size 0.2s;
+}
+.site-links a:hover{
+    font-size:20px;
+    text-decoration:none;
+    color:#ffc107;
+}
+.copyright-div{
+    text-align:center;
+}
+
+
