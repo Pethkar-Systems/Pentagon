@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Images",
     "\\Pages",
-    "\\Pages\\Shared"
+    "\\Pages\\Shared",
+    "\\Pentagon"
   ],
-  "SelectedNode": "\\Pages\\Shared\\error.html",
+  "SelectedNode": "\\Images\\keyboard.jpg",
   "PreviewInSolutionExplorer": false
 }
