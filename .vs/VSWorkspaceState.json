@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Images",
-    "\\Scripts",
-    "\\Styles"
+    "\\Pages",
+    "\\Pages\\Shared",
+    "\\Pentagon"
   ],
-  "SelectedNode": "\\Scripts\\Scripts.js",
+  "SelectedNode": "\\Images\\keyboard.jpg",
   "PreviewInSolutionExplorer": false
 }
