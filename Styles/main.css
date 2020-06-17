@@ -3,26 +3,30 @@
     float: right;
     cursor: pointer;
 }
+
 .menu-list-items {
     float: right;
-
 }
+
 .menu-link-names {
     color: white;
     font-size: 19px;
     transition: font-size 0.2s;
     cursor:pointer;
 }
+
 .menu-link-names:hover {
     color: #ffc107;
     display: block;
     font-size: 20px;
 }
+
 .menu-link-names:active {
     color: #ffc107;
     display: block;
     font-size: 20px;
 }
+
 .navbar-brand {
     color: white;
 }
@@ -31,30 +35,35 @@
     background-color: #030504;
     border-bottom: solid #282829;
 }
+
 .footers {
     background-color: #ff8f00;
     color: white;
     padding-top: 3vw
 }
+
 .modal-footer{
     font-size:18px;
 }
+
 .site-links a{
     font-size:18px;
     color:white;
     cursor:pointer;
     transition:font-size 0.5s;
 }
+
 .site-links a:hover{
     font-size:20px;
     text-decoration:none;
     color:white;
 }
+
 .copyright-div{
     text-align:center;
 }
-.home-container {
-    
+
+.home-container {    
     height: 45vw;
     text-align: center;
     color: white;
@@ -62,19 +71,22 @@
     padding-top: 20vw;
     background-color: #030505;
 }
+
 .home-container h1{
     margin-bottom:3vw;
 }
-.home-container p{
-    
+
+.home-container p{    
     font-size:2rem;
     font-weight:400;
     padding:0.5vw;
 }
+
 .typed-text {
     font-weight: normal;
     color: #ffc107;
 }
+
 .cursor{
     display:inline-block;
     width:0.1vw;
@@ -83,6 +95,7 @@
     animation: blink 1s infinite;
     font-size:1.5rem;
 }
+
 @keyframes blink{
     0%{
         background-color:white;
@@ -173,35 +186,25 @@ textarea.contact-form-text {
     padding-bottom: 300px;
     background-color: #030504;
 }
+
 .feedback-title {
     margin-bottom: 5vw;
 }
+
 .feedback-text {
     margin: auto;
     width: 70%;
     font-size: 20px;
 }
+
 .carousel-inner .carousel-item .img-box {
     width: 135px;
     height: 135px;
 }
+
 .carousel-indicators {
     top: 430px;
 }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .row1 {
     height: 580px;
@@ -210,8 +213,6 @@ textarea.contact-form-text {
     margin-top:-10px; 
     padding-bottom:100px
 }
-
-
 
 .example {
     margin-left: -100px;
@@ -257,11 +258,9 @@ textarea.contact-form-text {
     text-decoration: none;
     transition: opacity .3s;
 }
-
     .demo a:hover {
         opacity: .5;
     }
-
 
 .row2 {
     text-align:center;
@@ -286,11 +285,13 @@ textarea.contact-form-text {
     background-color: white;
     box-shadow: 0px 15px 20px rgb(111, 91, 60);
 }
+
 .newimage:hover {
     transform: scale(1.2);
     transition: all 1s ease;
 
 }
+
 .button-on-block {
     color: white;
     background-color: #f9aa33;
@@ -311,8 +312,6 @@ textarea.contact-form-text {
     color: white;
 }
 
-
-
 .caption{
     text-decoration-line:none;
 }
@@ -327,6 +326,7 @@ textarea.contact-form-text {
     text-decoration: none;
     border-radius: 5px;
 }
+
 .captionclass:hover {
     text-decoration: none;
     color: black;
@@ -336,23 +336,23 @@ textarea.contact-form-text {
     padding-top: 70px;
 }
 
-    #section1 a span {
-        font-weight:100;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 24px;
-        height: 24px;
-        margin-left: -12px;
-        border-left: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-        -webkit-transform: rotateZ(-45deg);
-        transform: rotateZ(-45deg);
-        -webkit-animation: sdb06 1.5s infinite;
-        animation: sdb06 1.5s infinite;
-        box-sizing: border-box;
-        transition:2s;
-    }
+#section1 a span {
+    font-weight:100;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    -webkit-animation: sdb06 1.5s infinite;
+    animation: sdb06 1.5s infinite;
+    box-sizing: border-box;
+    transition:2s;
+}
 
 
 
