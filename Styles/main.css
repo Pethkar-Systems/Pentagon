@@ -1,4 +1,5 @@
-﻿.menu-image {
+﻿/*Header and footer*/
+.menu-image {
     float: right;
     cursor: pointer;
 }
@@ -17,6 +18,11 @@
     display: block;
     font-size: 20px;
 }
+.menu-link-names:active {
+    color: #ffc107;
+    display: block;
+    font-size: 20px;
+}
 .navbar-brand {
     color: white;
 }
@@ -30,16 +36,19 @@
     color: white;
     padding-top: 3vw
 }
+.modal-footer{
+    font-size:18px;
+}
 .site-links a{
     font-size:18px;
     color:white;
     cursor:pointer;
-    transition:font-size 0.2s;
+    transition:font-size 0.5s;
 }
 .site-links a:hover{
     font-size:20px;
     text-decoration:none;
-    color:#ffc107;
+    color:white;
 }
 .copyright-div{
     text-align:center;
@@ -86,10 +95,7 @@
     }
 }
 
-
-
-
-
+/*Contact and Feedback */
 .contact-container {
     margin: 0;
     padding-top: 10vw;
@@ -97,12 +103,12 @@
     background-color: #030504;
 }
 
-    .contact-container h1 {
-        text-align: center;
-        padding-bottom: 2vw;
-        font-size: 50px;
-        color: white;
-    }
+.contact-container h1 {
+    text-align: center;
+    padding-bottom: 2vw;
+    font-size: 50px;
+    color: white;
+}
 
 .form-container {
     text-align: center;
@@ -132,9 +138,9 @@
     transition: 0.3s;
 }
 
-    .contact-form-text:focus {
-        box-shadow: 0 0 2px 0.5px #ddd;
-    }
+.contact-form-text:focus {
+    box-shadow: 0 0 2px 0.5px #ddd;
+}
 
 textarea.contact-form-text {
     resize: none;
@@ -155,9 +161,30 @@ textarea.contact-form-text {
     overflow: hidden;
 }
 
-    .contact-form-btn:hover {
-        background-color: #ddd;
-        color: #222;
-        box-shadow: #222 2px 7px;
-    }
+.contact-form-btn:hover {
+    background-color: #ddd;
+    color: #222;
+    box-shadow: #222 2px 7px;
+}
 
+/*Feedback*/
+#feedbacks .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-color: #030504;
+}
+.feedback-title {
+    margin-bottom: 5vw;
+}
+.feedback-text {
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+}
+.carousel-inner .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
+}
+.carousel-indicators {
+    top: 430px;
+}
