@@ -10,5 +10,8 @@ function load_contact() {
 function load_feedback() {
     $("#pages-placeholder").load("../../Pages/Site/feedback.html");
 }
+function load_experience() {
+    $("#pages-placeholder").load("../../Pages/Site/experience.html");
+}
 
 
