@@ -1,0 +1,22 @@
+﻿#feedbacks .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-color: #030504;
+}
+.feedback-title{
+    margin-bottom:5vw;
+}
+.feedback-text{
+    margin:auto;
+    width:70%;
+    font-size:20px;
+}
+.carousel-inner .carousel-item .img-box{
+    width:135px;
+    height:135px;
+}
+
+
+.carousel-indicators{
+    top:330px;
+}
