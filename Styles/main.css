@@ -1,34 +1,193 @@
-﻿.menu-image {
+﻿/*Header and footer*/
+.menu-image {
     float: right;
     cursor: pointer;
 }
-
 .menu-list-items {
     float: right;
-}
 
+}
 .menu-link-names {
     color: white;
     font-size: 19px;
     transition: font-size 0.2s;
+    cursor:pointer;
 }
-
-    .menu-link-names:hover {
-        color: #ffc107;
-        display: block;
-        font-size: 20px;
-    }
-
+.menu-link-names:hover {
+    color: #ffc107;
+    display: block;
+    font-size: 20px;
+}
+.menu-link-names:active {
+    color: #ffc107;
+    display: block;
+    font-size: 20px;
+}
 .navbar-brand {
     color: white;
 }
 
 .navigation {
-    background-color: #211412;
+    background-color: #030504;
+    border-bottom: solid #282829;
 }
 .footers {
-    background-color: #211412;
+    background-color: #ff8f00;
+    color: white;
+    padding-top: 3vw
+}
+.modal-footer{
+    font-size:18px;
+}
+.site-links a{
+    font-size:18px;
     color:white;
+    cursor:pointer;
+    transition:font-size 0.5s;
+}
+.site-links a:hover{
+    font-size:20px;
+    text-decoration:none;
+    color:white;
+}
+.copyright-div{
+    text-align:center;
+}
+.home-container {
+    
+    height: 45vw;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    padding-top: 20vw;
+    background-color: #030505;
+}
+.home-container h1{
+    margin-bottom:3vw;
+}
+.home-container p{
+    
+    font-size:2rem;
+    font-weight:400;
+    padding:0.5vw;
+}
+.typed-text {
+    font-weight: normal;
+    color: #ffc107;
+}
+.cursor{
+    display:inline-block;
+    width:0.1vw;
+    background-color:white;
+    margin-left:0.5vw;
+    animation: blink 1s infinite;
+    font-size:1.5rem;
+}
+@keyframes blink{
+    0%{
+        background-color:white;
+    }
+    50%{
+        background-color:transparent;
+    }
+    100%{
+        background-color:white;
+    }
+}
+
+/*Contact and Feedback */
+.contact-container {
+    margin: 0;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    background-color: #030504;
+}
+
+.contact-container h1 {
+    text-align: center;
+    padding-bottom: 2vw;
+    font-size: 50px;
+    color: white;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.inner-form-container {
+    display: inline-block;
+    width: 600px;
+}
+
+.form-row {
+    padding-bottom: 2vw;
+}
+
+.contact-form-text {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    border: 0;
+    background: #222;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #ddd;
+    transition: 0.3s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 2px 0.5px #ddd;
+}
+
+textarea.contact-form-text {
+    resize: none;
+}
+
+.buttons {
+    float: right;
+}
+
+.contact-form-btn {
+    border: 0;
+    background-color: #222;
+    color: #ddd;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.contact-form-btn:hover {
+    background-color: #ddd;
+    color: #222;
+    box-shadow: #222 2px 7px;
+}
+
+/*Feedback*/
+#feedbacks .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-color: #030504;
+}
+.feedback-title {
+    margin-bottom: 5vw;
+}
+.feedback-text {
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+}
+.carousel-inner .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
+}
+.carousel-indicators {
+    top: 430px;
+}
     
 }
 
