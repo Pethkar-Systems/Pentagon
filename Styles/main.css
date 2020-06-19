@@ -1,4 +1,65 @@
-﻿/*Header and footer*/
+﻿@media screen and (min-width: 671px) {
+    .feedback-text {
+        font-size: 20px;
+    }
+    .modal-footer{
+        font-size:18px;
+    }
+
+    .home-text {
+        font-size: 25px;
+    }
+    .home-heading {
+        font-size: 50px;
+        margin-bottom:6vw;
+    }
+    .contactus-heading {
+        font-size: 40px;
+    }
+    .contact-form-text {
+        padding: 15px 40px;
+    }
+
+}
+@media screen and (min-width: 561px) and (max-width:670px) {
+    .home-text {
+        font-size: 25px;
+    }
+    .home-heading {
+        font-size: 40px;
+        margin-bottom: 6vw;
+    }
+    .modal-footer {
+        font-size: 15px;
+    }
+    .contactus-heading {
+        font-size: 30px;
+    }
+    .contact-form-text {
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .feedback-text {
+        font-size: 15px;
+    }
+    .home-text {
+        font-size: 20px;
+    }
+    .home-heading {
+        font-size: 25px;
+    }
+    .contactus-heading{
+        font-size:30px;
+    }
+    .contact-form-text {
+        padding: 10px 30px;
+    }
+}
+
+
+/*Header and footer*/
 .menu-image {
     float: right;
     cursor: pointer;
@@ -11,7 +72,7 @@
 .menu-link-names {
     color: white;
     font-size: 19px;
-    transition: font-size 0.2s;
+    transition: font-size 0.7s;
     cursor:pointer;
 }
 
@@ -21,10 +82,8 @@
     font-size: 20px;
 }
 
-.menu-link-names:active {
+.nav-link.active {
     color: #ffc107;
-    display: block;
-    font-size: 20px;
 }
 
 .navbar-brand {
@@ -42,12 +101,8 @@
     padding-top: 3vw
 }
 
-.modal-footer{
-    font-size:18px;
-}
 
 .site-links a{
-    font-size:18px;
     color:white;
     cursor:pointer;
     transition:font-size 0.5s;
@@ -63,23 +118,22 @@
     text-align:center;
 }
 
-.home-container {    
-    height: 45vw;
+/*Home*/
+
+.home-container{    
     text-align: center;
     color: white;
-    font-size: 3vw;
     padding-top: 20vw;
     background-color: #030505;
+    padding-bottom:20vw;
 }
 
-.home-container h1{
-    margin-bottom:3vw;
+.home-heading{
+    font-weight:700;
 }
 
-.home-container p{    
-    font-size:2rem;
-    font-weight:400;
-    padding:0.5vw;
+.home-text{    
+    font-weight:400;   
 }
 
 .typed-text {
@@ -110,37 +164,37 @@
 
 /*Contact and Feedback */
 .contact-container {
-    margin: 0;
     padding-top: 10vw;
     padding-bottom: 10vw;
     background-color: #030504;
+    width:100%;
 }
 
-.contact-container h1 {
+.contact-container p {
     text-align: center;
     padding-bottom: 2vw;
-    font-size: 50px;
     color: white;
 }
 
 .form-container {
     text-align: center;
+    width: 100%;
 }
 
 .inner-form-container {
     display: inline-block;
-    width: 600px;
+    width:50%;
+    min-width:350px;
 }
 
 .form-row {
-    padding-bottom: 2vw;
+    padding-bottom: 2vw;  
 }
 
 .contact-form-text {
     width: 100%;
     display: block;
     box-sizing: border-box;
-    padding: 15px 40px;
     border: 0;
     background: #222;
     color: white;
@@ -183,7 +237,7 @@ textarea.contact-form-text {
 /*Feedback*/
 #feedbacks .container-fluid {
     padding-top: 50px;
-    padding-bottom: 300px;
+    padding-bottom: 15vw;
     background-color: #030504;
 }
 
@@ -193,8 +247,7 @@ textarea.contact-form-text {
 
 .feedback-text {
     margin: auto;
-    width: 70%;
-    font-size: 20px;
+    width: 70%; 
 }
 
 .carousel-inner .carousel-item .img-box {
@@ -203,9 +256,13 @@ textarea.contact-form-text {
 }
 
 .carousel-indicators {
-    top: 430px;
+    top: 450px;
 }
 
+
+
+
+/*blogs*/
 .row1 {
     height: 580px;
     width:1364px; 
