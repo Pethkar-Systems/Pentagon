@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -11,9 +12,8 @@
 
     <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="../../Styles/main.css" rel="stylesheet" />
-    <link href="../../Content/bootstrap.css" rel="stylesheet" />
     <script src="../../Scripts/Custom/load-template.js"></script>
-    
+    <script src="../../Scripts/Custom/blog.js"></script>
 </head>
 <body onload="load_home()" class="pentagon-body">
     <nav class="navbar  navigation">
@@ -39,57 +39,56 @@
                 <li class="nav-item">
                     <a class="nav-link menu-link-names" onclick="load_blogs()" href="#">Blogs</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link menu-link-names" onclick="load_experience()" href="#">Experience</a>
+                </li>
             </ul>
         </div>
     </nav>
-    <div id="pages-placeholder" style="height:auto;">
-        
-    </div>
+    <div id="pages-placeholder">    </div>
 
-    <div class="container-fluid footers">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class=" col-sm-8 ">
-                    <h4>About</h4>
-                    <div class="modal-footer ">
+
+    <div class="footers ">
+        <div class="row footer-content-row">
+            <div class="col-sm-7">
+                    <p class="footer-headings"><strong>About</strong></p>
+                    <hr />
+                    <div class="footer-about-content footer-text ">
                         6+ years of experience facilitating cutting edge technologies with a wide range of experience in SaaS applications and technology skills.
                         Extensive problem solving and critical thinking abilities.
-                        Extensive experience in large scale architecture development.
-                        Extensive experience as a full stack developer and building interactive web applications.
-                        Excellent understanding of design principles.
-                        Extensive experience in working with data structures and critical algorithms.
-                        Extensive experience in handling clients.
-                        Extensive experience in managing a team of 10+ people.
-                        Excellent communication skills.
                     </div>
-                </div>
             </div>
-            <div class="col-sm-4 ">
-                <h4>Site links</h4>
-                <div class="modal-footer d-inline-block site-links">
-                    <a href="#" onclick="load_blogs()">blogs</a><br />
-                    <a href="#">projects</a><br />
-                    <a href="#">experience</a><br />
-                    <a href="#">feedback</a><br />
-                    <a href="#">Contact us</a>
-                </div>
+            <div class="col-sm-2 ">
+                
+                    <p class="footer-headings"><strong>Site links</strong></p>
+                    <hr />
+                    <div class=" d-inline-block footer-text">
+                        <a href="#" onclick="load_blogs()">blogs</a><br />
+                        <a href="#" onclick="load_projects()">projects</a><br />
+                        <a href="#" onclick="load_experience()">experience</a><br />
+                        <a href="#" onclick="load_feedback()">feedback</a><br />
+                        <a href="#" onclick="load_contact()">Contact us</a>
+                    </div>
+                
             </div>
-            <div class="col-sm-2">
-                <h4>Links</h4>
-                <div class="modal-footer d-inline-block site-links">
-                    <a href="https://www.linkedin.com/in/rajashree-pethkar-11b3a332/" target="_blank">LinkedIn</a><br />
-                    <a href="https://www.facebook.com/rajashreepethkar49" target="_blank">Facebook</a><br />
-                    <a href="https://twitter.com/r_pethkar" target="_blank">Twitter</a><br />
-                    <a href="https://github.com/Rajashree-Pethkar" target="_blank">Github</a><br />
-                    <a href="https://stackoverflow.com/users/3217993/rajashree-pethkar" target="_blank">Stackoverflow</a><br />
+            <div class="col-sm-3">
+                
+                    <p class="footer-headings"><strong>Links</strong></p>
+                    <hr />
+                    <div class="d-inline-block footer-text">
+                        <a href="https://www.linkedin.com/in/rajashree-pethkar-11b3a332/" target="_blank">LinkedIn</a><br />
+                        <a href="https://www.facebook.com/rajashreepethkar49" target="_blank">Facebook</a><br />
+                        <a href="https://twitter.com/r_pethkar" target="_blank">Twitter</a><br />
+                        <a href="https://github.com/Rajashree-Pethkar" target="_blank">Github</a><br />
+                        <a href="https://stackoverflow.com/users/3217993/rajashree-pethkar" target="_blank">Stackoverflow</a><br />
 
-                </div>
+                    </div>
+                
             </div>
         </div>
         <div class="row ">
             <div class="card-footer container-fluid">
-                <div class="copyright-div">Copyright</div>
+                <div class="copyright-div">Copyright © 2020 Rajashree Pethkar</div>
             </div>
         </div>
     </div>
