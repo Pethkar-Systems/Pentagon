@@ -6,8 +6,8 @@ function load_home() {
     $('.nav .nav-link').click(function () {
         $('.nav .nav-link').removeClass('active');
         $(this).addClass('active');
+        $('.navbar-collapse').collapse('hide');
     })
-    
 }
 function load_contact() {
     $("#pages-placeholder").load("../../Pages/Site/contact.html");
@@ -18,9 +18,3 @@ function load_feedback() {
 function load_experience() {
     $("#pages-placeholder").load("../../Pages/Site/experience.html");
 }
-
-
-
-
-
-

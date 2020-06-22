@@ -1,17 +1,28 @@
-﻿@media screen and (min-width: 671px) {
-    .feedback-text {
+﻿@media screen and (min-width: 691px) {
+    .menu-list-items {
+        float: right;
+    }
+    
+    .menu-link-names{
+        font-size:19px;
+    }
+    .menu-link-names:hover {
         font-size: 20px;
     }
-    .modal-footer{
-        font-size:18px;
+    .footers {
+        font-size: 16px;
     }
-
+    .footer-text a:hover {
+        font-size: 17px;
+    }
     .home-text {
-        font-size: 25px;
+        font-size: 30px;
     }
     .home-heading {
         font-size: 50px;
-        margin-bottom:6vw;
+    }
+    .feedback-text {
+        font-size: 20px;
     }
     .contactus-heading {
         font-size: 40px;
@@ -21,17 +32,32 @@
     }
 
 }
-@media screen and (min-width: 561px) and (max-width:670px) {
+@media screen and (min-width: 561px) and (max-width:690px) {
+    .menu-list-items {
+        float: right;
+    }
+
+    .menu-link-names {
+        font-size: 13px;
+    }
+    .menu-link-names:hover {
+        font-size: 14px;
+    }
+    .footers {
+        font-size: 13px;
+        
+    }
+    .footer-text a:hover{
+        font-size:14px;
+    }
     .home-text {
         font-size: 25px;
     }
     .home-heading {
         font-size: 40px;
-        margin-bottom: 6vw;
+        
     }
-    .modal-footer {
-        font-size: 15px;
-    }
+
     .contactus-heading {
         font-size: 30px;
     }
@@ -41,14 +67,29 @@
 }
 
 @media screen and (max-width: 560px) {
-    .feedback-text {
-        font-size: 15px;
+    .menu-list-items {
+        float: right;
+    }
+    .menu-link-names {
+        font-size: 7px;
+    }
+    .menu-link-names:hover {
+        font-size: 8px;
+    }
+    .footers {
+        font-size: 11px;
+    }
+    .footer-text a:hover{
+        font-size:12px;
     }
     .home-text {
         font-size: 20px;
     }
     .home-heading {
         font-size: 25px;
+    }
+    .feedback-text {
+        font-size: 15px;
     }
     .contactus-heading{
         font-size:30px;
@@ -65,21 +106,15 @@
     cursor: pointer;
 }
 
-.menu-list-items {
-    float: right;
-}
-
 .menu-link-names {
     color: white;
-    font-size: 19px;
-    transition: font-size 0.7s;
+    transition: font-size 1s;
     cursor:pointer;
 }
 
 .menu-link-names:hover {
     color: #ffc107;
     display: block;
-    font-size: 20px;
 }
 
 .nav-link.active {
@@ -98,18 +133,34 @@
 .footers {
     background-color: #ff8f00;
     color: white;
-    padding-top: 3vw
+    padding-top: 3vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footers hr{
+    width:75%;
+    border-color:white;
+    margin-left:0;
+}
+.footer-content-row{
+    padding-bottom:7vw;
+}
+.footer-about-content{
+    padding-right:10vw;
+}
+.footer-text{
+    padding-bottom:3vw;
 }
 
-
-.site-links a{
+.footer-text a{
     color:white;
+    padding-bottom:15px;
     cursor:pointer;
     transition:font-size 0.5s;
 }
 
-.site-links a:hover{
-    font-size:20px;
+.footer-text a:hover{
+    
     text-decoration:none;
     color:white;
 }
@@ -126,10 +177,12 @@
     padding-top: 20vw;
     background-color: #030505;
     padding-bottom:20vw;
+
 }
 
 .home-heading{
     font-weight:700;
+    padding-bottom:3vw;
 }
 
 .home-text{    
@@ -184,7 +237,7 @@
 .inner-form-container {
     display: inline-block;
     width:50%;
-    min-width:350px;
+    min-width:340px;
 }
 
 .form-row {
