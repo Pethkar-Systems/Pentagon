@@ -330,65 +330,57 @@ textarea.contact-form-text {
 
 
 
-
 .mainimage-div {
-    height: 563px;
-    width: 1364px;
+    position:relative;
     background-color: white;
-    margin-top: -10px;
-    padding-bottom: 100px
+    height: 45vw;
+    width: 100%;
+    margin:0px;
+    padding:0px;
 }
 
-.mainimage-div-image {
-    height: 553px;
-    width: 1200px;
-    margin-top: 10px
-}
-
-.blogimage-image {
-    height: 220px;
-    width: 301px;
-}
-
+    .mainimage-div img {
+        background-color: white;
+        width: 100%;
+        height: 45vw;
+    }
 
 .blogsheading-div {
-    margin-left: -25px;
-    margin-top: 40px;
-    background-color: white;
-    color: #0b0f11;
-    display: inline-block;
-    text-align: center;
-    font-size: x-large;
-    text-transform: none;
-    opacity: 0.0;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    position: absolute;
+    bottom: 40%;
+    left: 37%;
 }
 
-@keyframes fadeInAnimation {
+    .blogsheading-div h1 {
+        font-size: 6vw;
+        text-align: center;
+        letter-spacing: 2vw;
+        color: white;
+        animation-direction: reverse;
+        text-transform: none;
+        opacity: 0.0;
+        animation: fadeInDown ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+@keyframes fadeInDown {
     0% {
         opacity: 0;
+        transform: translateY(-20px);
     }
 
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
-}
-
-.blogsheading-div h1 {
-    font-size: 50px;
-}
-
-.alphabetcolor {
-    color: #f9aa33;
-}
-
-
+} 
+ 
 .scrolldown-div a {
     position: absolute;
-    bottom: -23px;
-    left: 80%;
+    bottom: 1vw;
+    right: 49%;
+    bottom:5%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -403,7 +395,6 @@ textarea.contact-form-text {
     .scrolldown-div a:hover {
         opacity: .5;
     }
-
 
 #scrolldownsection-div a {
     padding-top: 60px;
@@ -492,43 +483,42 @@ textarea.contact-form-text {
     }
 }
 
-
-
 .allblogstitle-div {
-    text-align: center;
-    width: 1364px;
     background-color: #030504;
+    height: 8vw;
+    width: 100%;
+    margin: 0vw;
 }
 
     .allblogstitle-div h1 {
         color: white;
-        margin-top: 70px;
-        margin-left: 105px;
+        font-size:3vw;
+        margin-top: 4vw;
+        margin-left: 5vw;
         border-bottom: double;
-        border-bottom-color: #f9aa33
+        border-bottom-color: #f9aa33;
     }
 
 .allblogs-div1 {
-    height: 430px;
-    width: 1364px;
     background-color: #030504;
-    margin-top: -10px;
-    padding-bottom: 50px
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: 0px;
 }
 
 .allblogs-div2 {
-    height: 550px;
-    width: 1364px;
     background-color: #030504;
-    margin-top: -10px;
-    padding-bottom: 100px
+    padding-bottom: 20vw;
+    width: 100%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: 0px;
 }
 
 .blog-div {
-    margin-left: 90px;
-    margin-top: 80px;
+    padding-left: 0vw;
 }
-
 
     .blog-div a {
         text-decoration: none;
@@ -537,12 +527,19 @@ textarea.contact-form-text {
 .thumbnail-div {
     background-color: white;
     box-shadow: 0px 15px 20px rgb(111, 91, 60);
+    margin-left: 1vw;
+    margin-top: 5vw;
 }
 
     .thumbnail-div:hover {
         transform: scale(1.1);
         transition: all 1s ease;
     }
+
+.blogimage-image {
+    height: 100%;
+    width: 100%;
+}
 
 .allcaptions-div {
     text-align: center;
@@ -554,7 +551,7 @@ textarea.contact-form-text {
     background-color: white;
     border: none;
     text-align: center;
-    font-size: 90%;
+    font-size: 16px;
     cursor: pointer;
     text-decoration: none;
     border-radius: 5px;
@@ -568,14 +565,14 @@ textarea.contact-form-text {
 .clickherebutton-div {
     color: white;
     background-color: #f9aa33;
-    padding: 3px 4px;
+    padding: 1vw 2vw;
     border: none;
     text-align: center;
     font-size: 90%;
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5vw;
 }
 
     .clickherebutton-div:hover {
@@ -585,15 +582,4 @@ textarea.contact-form-text {
         color: white;
     }
 
-
-
-
-
-
-
-#myProgress {
-    width: 10%;
-    background-color: #ddd;
-    margin:50px;
-}
 
