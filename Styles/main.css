@@ -10,10 +10,10 @@
         font-size: 20px;
     }
     .footers {
-        font-size: 16px;
+        font-size: 17px;
     }
     .footer-text a:hover {
-        font-size: 17px;
+        font-size: 18px;
     }
     .home-text {
         font-size: 30px;
@@ -44,11 +44,11 @@
         font-size: 14px;
     }
     .footers {
-        font-size: 13px;
+        font-size: 15px;
         
     }
     .footer-text a:hover{
-        font-size:14px;
+        font-size:16px;
     }
     .home-text {
         font-size: 25px;
@@ -77,10 +77,10 @@
         font-size: 8px;
     }
     .footers {
-        font-size: 11px;
+        font-size: 14px;
     }
     .footer-text a:hover{
-        font-size:12px;
+        font-size:15px;
     }
     .home-text {
         font-size: 20px;
@@ -146,15 +146,15 @@
     padding-bottom:7vw;
 }
 .footer-about-content{
-    padding-right:10vw;
+    padding-right:15vw;
 }
+
 .footer-text{
     padding-bottom:3vw;
 }
 
 .footer-text a{
     color:white;
-    padding-bottom:15px;
     cursor:pointer;
     transition:font-size 0.5s;
 }
