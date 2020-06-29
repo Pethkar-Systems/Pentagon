@@ -33,15 +33,17 @@
 }
 
 /*project page*/
-
-.heading-project-page {
+#project-page-title-color {
+    color: #ffc107;
+}
+.project-page-title-div {
     text-align: center;
     color: white;
     font-size: 5vw;
-    letter-spacing:1vw;
+    letter-spacing: 0.5vw;
 }
 
-.image-block {
+.project-info-background-image-block-div {
     position: relative;
     text-align: center;
     color: white;
@@ -49,13 +51,13 @@
     padding: 0px;
     margin: 0px;
 }
-.image {
+.project-info-background-image-style {
     width: 30.4vw;
     height: 20vw;
     border: 0.1vw solid white;
 }
 
-.image-block:hover .image {
+.project-info-background-image-block-div:hover .project-info-background-image-style {
     box-shadow: 3px 3px 10px white;
 }   
 
@@ -79,13 +81,13 @@
         color: white;
     }
 
-.project-title {
+.project-title-div {
     position: absolute;
     color: white;
     font-size: 2vw;
     width:30vw;
 }
-.overlay-project-title {
+.overlay-project-title-div {
     position: absolute;
     bottom: 60%;
     text-align: center;
@@ -95,16 +97,16 @@
 
 }
 
-.image-block:hover .overlay-project-title {
+.project-info-background-image-block-div:hover .overlay-project-title-div {
     height: 30%;
 }
 
-.project-info {
+.project-info-div {
     color: white;
     font-size: 1.5vw;
     position: absolute;
     top: 50%;
-    left: 47%;
+    left: 47.3%;
     width: 90%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -112,7 +114,7 @@
     height: auto;
 }
 
-.overlay-project-info {
+.overlay-project-info-div {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -128,23 +130,23 @@
 }
 
 
-.image-block:hover .overlay-project-info {
+.project-info-background-image-block-div:hover .overlay-project-info-div {
     height: 75%;
 }
 
 
 @media screen and (max-width:767px) {
-    .project-info {
+    .project-info-div {
         font-size: 4vw;
         top: 50%;
         left: 49.5%;
         transform: translate(-50%, -50%);
     }
-    .project-title {
+    .project-title-div {
         font-size: 5vw;
         width: 93vw;
     }
-    .image {
+    .project-info-background-image-style {
         width: 92vw;
         height: 60vw;
     }
