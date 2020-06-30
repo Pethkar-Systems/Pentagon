@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Images",
-    "\\Pages",
-    "\\Pages\\Shared",
-    "\\Pentagon"
+    "\\Styles"
   ],
-  "SelectedNode": "\\Images\\keyboard.jpg",
+  "SelectedNode": "\\Styles\\main.css",
   "PreviewInSolutionExplorer": false
 }
