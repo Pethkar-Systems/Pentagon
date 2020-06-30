@@ -1,4 +1,3 @@
-﻿<script src="../../Scripts/Custom/contact.js"></script>
 <div class="contact-container">
     <div class="form-container">
         <p class="contactus-heading">Contact us</p>
@@ -13,6 +12,41 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+function sendEmail() {  
+    var name = $('#name')[0].value;
+    var email = $('#email')[0].value;
+    var phone = $('#phone')[0].value;
+    var body = $('#body')[0].value;
+   
+    if (isNotEmpty(name, email, phone, body)) {
+        debugger;
+        $.ajax({
+            url: 'mail.php',
+            type: 'POST',
+            name: name,
+            email: email,
+            phone: phone,
+            body: body,
+            success: function (response) {
+                console.log(response);
+            }, error: function (e) {
+                console.log(e);
+            }
+        });
+    }
+}
+function isNotEmpty(name, email, phone, body) {
+    debugger
+    if (name != "" && email != "" && phone != "" && body != "") {
+
+        return true;
+    } else {
+        console.log('some fields are empty');
+        return false
+    }
+}
+</script>
 
 
 

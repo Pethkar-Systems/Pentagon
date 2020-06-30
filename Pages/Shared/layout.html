@@ -12,32 +12,34 @@
     <link href="../../Styles/main.css" rel="stylesheet" />
     <script src="../../Scripts/Custom/load-template.js"></script>
     <script src="../../Scripts/Custom/blog.js"></script>
+    <script src="../../Libraries/smtp.js"></script>
     <script src="../../Scripts/Custom/contact.js"></script>
 </head>
 <body onload="load_home()" >
     <nav class="navbar  navigation">
-        <a class="navbar-brand" href="#" onclick="load_home()">Rajashree</a>
+        <a class="navbar-brand menu-link-for-collapse" href="#" onclick="load_home()">Rajashree</a>
         <img class="menu-image" data-toggle="collapse" data-target="#collapsible-navbar" src="../../Images/menu-white-18dp.svg" width="30" height="30" />
         <div class="collapse navbar-collapse" id="collapsible-navbar">
             <ul class="nav menu-list-items">
+                <!-- Dropdown code -->
+                <li class="nav-item dropdown">
+                    <a class=" menu-link-names nav-link dropdown-toggle" href="#" data-toggle="dropdown">Experience</a>
+                    <div class="dropdown-content">
+                        <a class=" menu-link-names menu-link-for-collapse nav-link" href="#" onclick="load_experience()">Skills</a>
+                        <a class=" menu-link-names menu-link-for-collapse nav-link" href="#" onclick="load_projects()">Projects</a>
+                    </div>
+                </li>
+                <!-- Dropdown-code-end -->
                 <li class="nav-item">
-                    <a class="nav-link menu-link-names active" onclick="load_home()" href="#">home</a>
+                    <a class="nav-link menu-link-for-collapse menu-link-names" onclick="load_blogs()" href="#">Blogs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link-names" onclick="load_projects()" href="#">projects</a>
+                    <a class="nav-link menu-link-for-collapse menu-link-names" onclick="load_contact()" href="#">Contact us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link-names" onclick="load_blogs()" href="#">blogs</a>
+                    <a class="nav-link menu-link-for-collapse menu-link-names" onclick="load_feedback()" href="#">Feedback</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-link-names" onclick="load_contact()" href="#">contact us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-link-names" onclick="load_feedback()" href="#">feedback</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link menu-link-names" onclick="load_experience()" href="#">Experience</a>
-                </li>
+
             </ul>
         </div>
     </nav>

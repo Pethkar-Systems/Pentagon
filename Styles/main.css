@@ -1,25 +1,75 @@
-﻿@media screen and (min-width: 691px) {
+﻿@media screen and (min-width: 768px) and (min-height:1000px) {
     .menu-list-items {
         float: right;
     }
-    
+
+    .menu-link-names {
+        font-size: 19px;
+    }
+
+    .footers {
+        font-size: 17px;
+    }
+
+    .home-container {
+        padding-top: 30vw;
+        padding-bottom: 30vw;
+    }
+
+    .home-text {
+        font-size: 30px;
+    }
+
+    .home-heading {
+        font-size: 50px;
+    }
+
+    .home-button {
+        font-size: 18px;
+    }
+
+    .feedback-text {
+        font-size: 20px;
+    }
+
+    .contactus-heading {
+        font-size: 40px;
+    }
+
+    .contact-form-text {
+        padding: 15px 40px;
+    }
+
+    .footers {
+        height: auto;
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-height:999px){
+    .menu-list-items {
+        float: right;
+    }
     .menu-link-names{
         font-size:19px;
-    }
-    .menu-link-names:hover {
-        font-size: 20px;
     }
     .footers {
         font-size: 17px;
     }
-    .footer-text a:hover {
-        font-size: 18px;
+    .home-container {
+        padding-top: 15vw;
+        padding-bottom: 20vw;
     }
     .home-text {
         font-size: 30px;
     }
     .home-heading {
         font-size: 50px;
+    }
+    .home-button {
+        font-size: 18px;
     }
     .feedback-text {
         font-size: 20px;
@@ -30,63 +80,32 @@
     .contact-form-text {
         padding: 15px 40px;
     }
-
-}
-@media screen and (min-width: 561px) and (max-width:690px) {
-    .menu-list-items {
-        float: right;
-    }
-
-    .menu-link-names {
-        font-size: 13px;
-    }
-    .menu-link-names:hover {
-        font-size: 14px;
-    }
-    .footers {
-        font-size: 15px;
-        
-    }
-    .footer-text a:hover{
-        font-size:16px;
-    }
-    .home-text {
-        font-size: 25px;
-    }
-    .home-heading {
-        font-size: 40px;
-        
-    }
-
-    .contactus-heading {
-        font-size: 30px;
-    }
-    .contact-form-text {
-        padding: 10px 30px;
+    .footers{
+        height:auto;
     }
 }
-
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
     .menu-list-items {
         float: right;
     }
     .menu-link-names {
-        font-size: 7px;
-    }
-    .menu-link-names:hover {
-        font-size: 8px;
+        font-size: 10px;
     }
     .footers {
         font-size: 14px;
     }
-    .footer-text a:hover{
-        font-size:15px;
+    .home-container{
+        padding-top:15vw;
+        padding-bottom:20vw;
     }
     .home-text {
         font-size: 20px;
     }
     .home-heading {
         font-size: 25px;
+    }
+    .home-button {
+        font-size: 10px;
     }
     .feedback-text {
         font-size: 15px;
@@ -101,6 +120,7 @@
 
 
 /*Header and footer*/
+/*Header start*/
 .menu-image {
     float: right;
     cursor: pointer;
@@ -108,12 +128,12 @@
 
 .menu-link-names {
     color: white;
-    transition: font-size 1s;
     cursor:pointer;
+    transition:color 1s;
 }
 
 .menu-link-names:hover {
-    color: #ffc107;
+    color: #be7302;
     display: block;
 }
 
@@ -129,9 +149,36 @@
     background-color: #030504;
     border-bottom: solid #282829;
 }
+/* Dropdowns */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 15px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*Dropdown end*/
+/*Header Ends*/
+
+/*Footer start*/
 .footers {
-    background-color: #ff8f00;
+    background-color: #be7302;
     color: white;
     padding-top: 3vw;
     padding-left: 20px;
@@ -156,7 +203,6 @@
 .footer-text a{
     color:white;
     cursor:pointer;
-    transition:font-size 0.5s;
 }
 
 .footer-text a:hover{
@@ -168,16 +214,15 @@
 .copyright-div{
     text-align:center;
 }
+/*Footer End*/
+/*header footer Styling end*/
 
-/*Home*/
+/*Home start*/
 
 .home-container{    
     text-align: center;
     color: white;
-    padding-top: 20vw;
     background-color: #030505;
-    padding-bottom:20vw;
-
 }
 
 .home-heading{
@@ -215,12 +260,60 @@
     }
 }
 
-/*Contact and Feedback */
+.home-know-more{
+    padding-top:10vw;
+    float:right;
+    padding-right:3vw;
+    font-size:20px;
+}
+.know-more-div{
+    padding-top:5vw;
+}
+.know-more-icon{
+    cursor:pointer;
+    height:50px;
+    width:50px;
+}
+
+.home-button {
+    position: relative;
+    background-color:#000000;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: color 1000ms;
+    transition: color 1000ms;
+}
+
+.home-button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #be7302;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+   -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+}
+.home-button:hover:before{
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+}
+/*Home End*/
+
+/*Contact and Feedback start*/
 .contact-container {
     padding-top: 10vw;
     padding-bottom: 10vw;
     background-color: #030504;
-    width:100%;
+    width: 100%;
 }
 
 .contact-container p {
@@ -237,7 +330,7 @@
 .inner-form-container {
     display: inline-block;
     width:50%;
-    min-width:340px;
+    min-width:290px;
 }
 
 .form-row {
@@ -309,10 +402,9 @@ textarea.contact-form-text {
 }
 
 .carousel-indicators {
-    top: 450px;
+    top: 500px;
 }
-
-
+/*Contact and Feedback end*/
 
 
 /*blogs*/

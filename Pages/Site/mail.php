@@ -1,4 +1,6 @@
 
+
+
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -21,7 +23,7 @@ use PHPMailer\PHPMailer\Exception;
     $mail->Password   = 'akashvarudE';                               // SMTP password
     $mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 587;  
-
+	
 	$mail->isHTML(true);  
 	$mail->setFrom($email, $name);
     $mail->addAddress('asvarude@mitaoe.ac.in');     // Add a recipient

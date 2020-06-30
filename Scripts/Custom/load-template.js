@@ -3,8 +3,8 @@
 }
 function load_home() {
     $("#pages-placeholder").load("../../Pages/Site/home.html");
-    $('.nav .nav-link').click(function () {
-        $('.nav .nav-link').removeClass('active');
+    $('.menu-link-for-collapse').click(function () {
+        $('.menu-link-for-collapse').removeClass('active');
         $(this).addClass('active');
         $('.navbar-collapse').collapse('hide');
     })

@@ -1,7 +1,4 @@
-﻿
-
-
-function sendEmail() {
+﻿function sendEmail() {
     var name = $('#name')[0].value;
     var email = $('#email')[0].value;
     var phone = $('#phone')[0].value;
@@ -10,7 +7,7 @@ function sendEmail() {
     if (isNotEmpty(name, email, phone, body)) {
         debugger;
         $.ajax({
-            url: '../../Pages/Shared/mail.php',
+            url: "/Pages/Site/mail.php",
             type: 'POST',
             name: name,
             email: email,
