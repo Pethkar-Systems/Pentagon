@@ -18,4 +18,4 @@ function move(p) {
     }
 }
 
-move(80);
+move(80);z
