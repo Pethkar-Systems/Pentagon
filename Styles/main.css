@@ -502,81 +502,89 @@ textarea.contact-form-text {
 /*--Experience--*/
 
 .heading {
+/*project page*/
+#project-page-title-color {
+    color: #ffc107;
+}
+.project-page-title-div {
     text-align: center;
-    color: #f9aa33;
-    font-size: 30px;
+    color: white;
+    font-size: 5vw;
+    letter-spacing: 0.5vw;
 }
 
-.block {
+.project-info-background-image-block-div {
     position: relative;
     text-align: center;
     color: white;
     width: 100%;
     padding: 0px;
+    margin: 0px;
+}
+.project-info-background-image-style {
+    width: 30.4vw;
+    height: 20vw;
+    border: 0.1vw solid white;
 }
 
-    .block:hover .image {
-        filter: drop-shadow(3px 3px 3px #F7CBB2);
-    }
+.project-info-background-image-block-div:hover .project-info-background-image-style {
+    box-shadow: 3px 3px 10px white;
+}   
 
-.button-on-block {
+.read-more-button {
     color: white;
     background-color: #f9aa33;
-    padding: 3px 3px;
+    padding: 0.3vw 0.3vw;
     border: none;
     text-align: center;
     font-size: 90%;
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 1vw;
 }
 
-    .button-on-block:hover {
-        background-color: #FB5C02;
+    .read-more-button:hover {
+        background-color: #ffc107;
         text-decoration: none;
         text-align: center;
         color: white;
     }
 
-.heading-on-block {
+.project-title-div {
     position: absolute;
     color: white;
-    left: 2%;
-    right: 2%
+    font-size: 2vw;
+    width:30vw;
 }
-
-
-
-.overlay-heading-on-block {
+.overlay-project-title-div {
     position: absolute;
     bottom: 60%;
     text-align: center;
-    width: 100%;
+    width: 30vw;
     height: 0;
     transition: .5s ease;
+
 }
 
-.block:hover .overlay-heading-on-block {
+.project-info-background-image-block-div:hover .overlay-project-title-div {
     height: 30%;
 }
 
-.text {
+.project-info-div {
     color: white;
-    font-size: 20px;
-    padding: 10px;
-    position: relative;
+    font-size: 1.5vw;
+    position: absolute;
     top: 50%;
-    left: 50%;
-    width: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    left: 47.3%;
+    width: 90%;
     transform: translate(-50%, -50%);
     text-align: center;
     opacity: 1;
+    height: auto;
 }
 
-.overlay-text {
+.overlay-project-info-div {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -587,9 +595,12 @@ textarea.contact-form-text {
     width: 100%;
     height: 0;
     transition: .5s ease;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.block:hover .overlay-text {
+
+.project-info-background-image-block-div:hover .overlay-project-info-div .block:hover .overlay-text {
     height: 75%;
 }
 
@@ -771,3 +782,21 @@ textarea.contact-form-text {
         padding-top: 50px;
     }
  }
+@media screen and (max-width:767px) {
+    .project-info-div {
+        font-size: 4vw;
+        top: 50%;
+        left: 49.5%;
+        transform: translate(-50%, -50%);
+    }
+    .project-title-div {
+        font-size: 5vw;
+        width: 93vw;
+    }
+    .project-info-background-image-style {
+        width: 92vw;
+        height: 60vw;
+    }
+}
+
+
