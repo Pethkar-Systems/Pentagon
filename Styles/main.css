@@ -582,3 +582,125 @@ textarea.contact-form-text {
 
 
 
+
+/*project page*/
+#project-page-title-color {
+    color: #ffc107;
+}
+.project-page-title-div {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    letter-spacing: 0.5vw;
+}
+
+.project-info-background-image-block-div {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.project-info-background-image-style {
+    width: 30.4vw;
+    height: 20vw;
+    border: 0.1vw solid white;
+}
+
+.project-info-background-image-block-div:hover .project-info-background-image-style {
+    box-shadow: 3px 3px 10px white;
+}   
+
+.read-more-button {
+    color: white;
+    background-color: #f9aa33;
+    padding: 0.3vw 0.3vw;
+    border: none;
+    text-align: center;
+    font-size: 90%;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 1vw;
+}
+
+    .read-more-button:hover {
+        background-color: #ffc107;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+
+.project-title-div {
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    width:30vw;
+}
+.overlay-project-title-div {
+    position: absolute;
+    bottom: 60%;
+    text-align: center;
+    width: 30vw;
+    height: 0;
+    transition: .5s ease;
+
+}
+
+.project-info-background-image-block-div:hover .overlay-project-title-div {
+    height: 30%;
+}
+
+.project-info-div {
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 47.3%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    height: auto;
+}
+
+.overlay-project-info-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: none;
+    overflow: hidden;
+    opacity: 0.9;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.project-info-background-image-block-div:hover .overlay-project-info-div {
+    height: 75%;
+}
+
+
+@media screen and (max-width:767px) {
+    .project-info-div {
+        font-size: 4vw;
+        top: 50%;
+        left: 49.5%;
+        transform: translate(-50%, -50%);
+    }
+    .project-title-div {
+        font-size: 5vw;
+        width: 93vw;
+    }
+    .project-info-background-image-style {
+        width: 92vw;
+        height: 60vw;
+    }
+}
+
+
