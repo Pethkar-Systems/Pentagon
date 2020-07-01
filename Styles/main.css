@@ -397,7 +397,7 @@ textarea.contact-form-text {
 
 .scrolldownsection-class a {
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
     left: 51%;
     z-index: 2;
 }
@@ -513,6 +513,7 @@ textarea.contact-form-text {
 
 .blog-div {
     padding-left: 0vw;
+    margin:50px;
 }
     .blog-div a {
         text-decoration: none;
