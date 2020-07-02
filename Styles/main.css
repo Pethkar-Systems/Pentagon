@@ -119,7 +119,7 @@
     }
 
     .carousel-indicators {
-        top: 450px;
+        top: 450px; 
     }
 
     .form-row {
@@ -308,7 +308,7 @@
 .home-container {
     text-align: center;
     color: white;
-    background-color: #030505;
+    
 }
 
 .home-heading {
@@ -363,9 +363,37 @@
     cursor: pointer;
     height: 50px;
     width: 50px;
+    animation: shadow_out 1s infinite;
+    
+}
+@keyframes shadow_out {
+    0% {
+        box-shadow: 0px 0px 10px 1px white;
+        border-spacing:0px;
+    }
+    20% {
+        box-shadow: 0px 0px 13px 1.5px white;
+        border-spacing: 3px;
+    }
+    40% {
+        box-shadow: 0px 0px 17px 2px white;
+        border-spacing: 7px;
+    }
+    60% {
+        box-shadow: 0px 0px 22px 2.5px white;
+        border-spacing: 10px;
+    }
+    80% {
+        box-shadow: 0px 0px 26px 3.6px white;
+        border-spacing: 14px;
+    }
+
+    100% {
+        box-shadow: 0px 0px 30px 5px white;
+    }
 }
 
-.home-button {
+.know-more-button {
     position: relative;
     background-color: #000000;
     -webkit-transform: translateZ(0);
@@ -374,7 +402,7 @@
     transition: color 1000ms;
 }
 
-    .home-button:before {
+    .know-more-button:before {
         content: "";
         position: absolute;
         z-index: -1;

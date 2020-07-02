@@ -18,3 +18,6 @@ function load_feedback() {
 function load_experience() {
     $("#pages-placeholder").load("../../Pages/Site/experience.html");
 }
+function load_projects() {
+    $("#pages-placeholder").load("../../Pages/Site/projects.html");
+}
