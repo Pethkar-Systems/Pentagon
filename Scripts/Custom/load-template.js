@@ -1,14 +1,5 @@
 ﻿function load_home() {
     $("#pages-placeholder").load("../../Pages/Site/home.html");
-}
-function load_projects() {
-    $("#pages-placeholder").load("../../Pages/Site/projects.html");
-}
-function load_blogs() {
-    $("#pages-placeholder").load("../../Pages/Site/blogs.html");
-}
-function load_home() {
-    $("#pages-placeholder").load("../../Pages/Site/home.html");
     $('.nav .nav-link').click(function () {
         $('.nav .nav-link').removeClass('active');
         $(this).addClass('active');
