@@ -1,5 +1,6 @@
-﻿const typedTextSpan = document.querySelector(".typed-text");
-
+﻿var flag;
+if (flag == undefined) {
+const typedTextSpan = document.querySelector(".typed-text");
 const textArray = ["developer", "freelancer", "designer", "programmer"];
 const typingDelay = 100;
 const erasingDelay = 100;
@@ -37,4 +38,5 @@ document.addEventListener("DOMContentLoaded", function () {
 //    load_home();
     
 //});
-type();
+    type();
+}

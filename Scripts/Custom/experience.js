@@ -1,5 +1,4 @@
-﻿
-var i = 0;
+﻿var i = 0;
 function move(p) {
     if (i == 0) {
         i = 1;
