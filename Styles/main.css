@@ -45,13 +45,15 @@
         top: 450px;
     }
 
-    .contact-container {
+    .contact-outer-container {
         padding-top: 20vw;
         padding-bottom: 15vw;
     }
-
+    .contact-about-row {
+        font-size: 20px;
+    }
     .form-row {
-        padding-bottom: 3vw;
+        padding-bottom: 6vw;
     }
 
     .contactus-heading {
@@ -61,6 +63,10 @@
 
     .contact-form-text {
         padding: 15px 40px;
+    }
+    .feedback-title {
+        font-size: 50px;
+        padding-bottom: 7vw;
     }
 
     /*Contact and feedback Page Ends*/
@@ -73,10 +79,11 @@
 
     .project-page-title-div {
         padding-bottom: 10vw;
+        padding-top:5vw;
     }
 
     .projects-blocks-row {
-        padding-bottom: 10vw;
+        padding-bottom: 13vw;
     }
     /*Projects Page End*/
 }
@@ -115,6 +122,9 @@
     }
     /*Home Page End*/
     /*Contact and feedback page start*/
+    .feedback-title {
+        font-size: 50px;
+    }
     .feedback-text {
         font-size: 20px;
     }
@@ -127,14 +137,17 @@
         padding-bottom: 2vw;
     }
 
-    .contact-container {
+    .contact-outer-container {
         padding-top: 5vw;
         padding-bottom: 5vw;
     }
-
+    .contact-about-row {
+        font-size: 20px;
+    }
     .contactus-heading {
         font-size: 50px;
     }
+
 
     .contact-form-text {
         padding: 15px 40px;
@@ -177,15 +190,15 @@
     }
     /*Home Page End*/
     /*Contact and feedback page start*/
+    .contact-form-div{
+        text-align:center;
+    }
     .form-row {
         padding-bottom: 2vw;
     }
-
-    .contact-container {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
+    .feedback-title {
+        font-size: 30px;
     }
-
     .feedback-text {
         font-size: 15px;
     }
@@ -193,7 +206,14 @@
     .carousel-indicators {
         top: 470px;
     }
-
+    .contact-about-div {
+        text-align: left;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    .contact-about-row {
+        font-size: 15px;
+    }
     .contactus-heading {
         font-size: 30px;
     }
@@ -228,6 +248,7 @@
 
 .navbar-brand {
     color: white;
+    padding-left:2vw;
 }
 
 .navigation {
@@ -424,22 +445,38 @@
 /*Home End*/
 
 /*Contact and Feedback start*/
-
-
-.contact-container p {
-    text-align: center;
-    padding-bottom: 2vw;
-    color: white;
+.contact-outer-container {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
 }
-
-.form-container {
+.contactus-heading-div{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.contactus-heading{
     text-align: center;
-    width: 100%;
+    margin:auto;
+}
+.contact-about-row{
+    padding-bottom:1vw;
+}
+.contact-about-column{
+    padding-left:3vw;
+}
+.feedback-outer-container {
+    padding-top:10vw;
+}
+.feedback-form-div{
+    text-align: center;
+    width: 80%;
+    margin:auto;
 }
 
 .inner-form-container {
     display: inline-block;
-    width: 50%;
+    width: 80%;
     min-width: 290px;
 }
 
@@ -457,9 +494,9 @@
     transition: 0.3s;
 }
 
-    .contact-form-text:focus {
-        box-shadow: 0 0 2px 0.5px #ddd;
-    }
+.contact-form-text:focus {
+    box-shadow: 0 0 2px 0.5px #ddd;
+}
 
 textarea.contact-form-text {
     resize: none;
@@ -493,9 +530,9 @@ textarea.contact-form-text {
     padding-bottom: 15vw;
     background-color: #030504;
 }
-
 .feedback-title {
     margin-bottom: 5vw;
+    text-align: center;
 }
 
 .feedback-text {
@@ -523,6 +560,10 @@ textarea.contact-form-text {
 }
 /*Contact and Feedback end*/
 /*project page*/
+.projects-page-outer-div {
+    width: 96% !important;
+    margin:auto;
+}
 #project-page-title-color {
     color: #ffc107;
 }
@@ -882,14 +923,16 @@ textarea.contact-form-text {
 /*Blogs End*/
 
 /*Experience*/
+.experience-outer-div {
+    width: 96%;
+    margin: auto;
+}
 .education-main-div {   
     padding-top: 55px ;
 }
-
 .experience-main-div {
     padding-top: 55px;
 }
-
 .title-main-div {
     border-bottom: 1px solid black;
     padding-bottom: 17px;
