@@ -27,7 +27,7 @@ function displayComent() {
         "email": $('#email').val(),
         "body": $('#body').val(),
         "organisation": $('#organisation').val(),
-        "display": true
+        "display": false
     };
     console.log(addObj);
     coment.push(addObj);
